@@ -1,0 +1,94 @@
+
+.msg { padding: 10px; background: #222; position: relative; }
+.msg h1 { color: #fff;  }
+.msg a { margin-left: 20px; background: #408814; color: white; padding: 4px 8px; text-decoration: none; }
+.msg a:hover { background: #266400; }
+
+/* //-- yui-grids style overrides -- */
+body { font-family: Helvetica; color: #444;}
+#inner { padding: 1px 80px; margin: 0px auto 20px auto; background: #f5f5f5; border: solid #666; border-width: 2px 0 2px 0; }
+.yui-gf { margin-bottom: 0.5em; padding-bottom: 18px; padding-top: 24px; border-bottom: 1px solid #ccc; }
+.yui-u first{position: relative; bottom:-6px;}
+
+/* //-- header, body, footer -- */
+#hd { height:37px; margin: 2em 0 2em 0; padding-bottom: 1em;}
+#hd h2 { text-transform: uppercase; letter-spacing: 2px; }
+#ft { margin-bottom: 0; }
+#bd {margin-bottom:0; width:948px}
+
+/* //-- footer -- */
+#ft { padding: 1em 0 5em 0; font-size: 92%; border-top: 1px solid #ccc; text-align: center; }
+#ft p { margin-bottom: 0; text-align: center;   }
+
+/* //-- core typography and style -- */
+#hd h1 { font-size: 40px; text-transform: uppercase; letter-spacing: 3px; }
+h2 { font-size: 150% }
+h3, h4 { font-size: 15px; }
+h5 {font-size: 22px; color: #333; font-style: italic; line-height:43px;}
+h1, h2, h3, h4 { color: #333; }
+p { font-size: 12px; line-height: 18px; padding-right: 35px; }
+span {font-size: 16px;}
+a { color: black; text-decoration: none; }
+a:hover { text-decoration: none; }
+strong { font-weight: bold; }
+ul {position: relative; top: -10px}
+ul li { line-height: 22px; font-size:12px;}
+li ul{margin-top: 10px;}
+li ul li {margin-left: 15px; line-height: 16px;}
+p.enlarge { font-size: 16px; padding-right: 2.5em; line-height: 24px; }
+p.enlarge span { color: #000 }
+.contact-info { margin-top: 7px; }
+.first h2 { font-style: italic; }
+.last { border-bottom: 0; }
+
+
+
+/* //-- section styles -- */
+
+a#pdf { display: block; float: left; background: #666; color: white; padding: 6px 50px 6px 12px; margin-bottom: 6px; text-decoration: none;  }
+a#pdf:hover { background: #222; }
+
+
+.job { position: relative; margin-bottom: 1em; padding-bottom: 0; border-bottom: 1px solid #ccc; }
+.job h4 { position: absolute; top: 0.35em; right: 0 }
+.job p { margin: 15px 0 20px 0; }
+.jobBlue { position: relative; margin-bottom: 1em; padding-bottom: 6px; border-bottom: 1px solid #ccc; height:93px;}
+.job1 { position: relative; margin-bottom: 1em; padding-bottom: 0; border-bottom: none }
+.job1 h4 { position: absolute; top: 0.35em; right: 0 }
+.job1 ul {position: relative; top: 14px; padding-bottom:21px} 
+.job2 {position:relative;margin-bottom: 1em; padding-bottom: 3em; border-bottom: 1px solid #ccc; }
+.job2 h4 {top: 25px; float: right;}
+.job2 ul {position: relative; top: 25px; padding-top:19px} 
+
+
+
+.edu {position: relative; margin-bottom: 10px; padding-bottom: 0;}
+.edu h4 { position: absolute; top: 0.35em; right: 0 }
+
+.last { border: none; margin-bottom:-10px;}
+.skills-list {  }
+.skills-list ul { margin: 0; }
+.skills-list li { margin: 3px 0; padding: 3px 0; }
+.skills-list li span { font-size: 152%; display: block; margin-bottom: -2px; padding: 0 }
+.skill { width: 33%; float: left }
+.talent {width:25%; float:left}
+.talent h2 { margin-bottom: 6px; }
+.skill-group{ margin: 15px 0;}
+.skill-group::after{content:""; clear: both; display: table;}
+.skill-group .skill-title {width: 33%; float: left;}
+.skill-group .skills{width: 66%; float: left;}
+#srt-ttab { margin-bottom: 100px; text-align: center;  }
+#srt-ttab img.last { margin-top: 20px }
+
+.urls ul {list-style-type: none; text-decoration: none; float: left; margin-left: -198px; margin-top: -127px;width: 200px;}
+.bsurls ul {list-style-type: none; float: left; margin-left: -198px; margin-top: -93px;width: 200px;}
+.greyurls ul {list-style-type: none; float: left; margin-left: -198px; margin-top: -68px;width: 200px;}
+.makurls ul {list-style-type: none; text-decoration: none; float: left; margin-left: -198px; margin-top: -85px;width: 200px;}
+
+
+/* --// override to force 1/8th width grids -- */
+.yui-gf .yui-u{width:750px;}
+.yui-gf div.first{width:12.3%;}
+.yui-c {position:relative; }
+.yui-gc div.first {width:73%;}
+
